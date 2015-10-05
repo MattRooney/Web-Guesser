@@ -19,6 +19,6 @@ def compare_guess(guess)
   elsif guess < Secret_Number
     message = "Too low!"
   elsif guess == Secret_Number
-    message = "You got it!"
+    message = "You got it! The SECRET NUMBER is #{Secret_Number}."
   end
 end
